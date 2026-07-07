@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevRise Agency - Premium Web Development Agency. We build modern, fast, and responsive web applications for businesses that want to scale.">
+    <title>DevRise Agency | Premier Web Development & Design Agency</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme"> <!-- Default to dark-theme for that premium developer aesthetic -->
+
+    <!-- Header / Navigation -->
+    <header id="header">
+        <div class="container">
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                DevRise<span class="logo-dot"></span>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#services" class="nav-item">Services</a>
+                <a href="#testimonials" class="nav-item">Testimonials</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+
+            <!-- Actions (Theme Toggle & CTA) -->
+            <div class="header-actions">
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <!-- Moon Icon (for dark mode display) -->
+                    <svg class="moon-icon" viewBox="0 0 24 24">
+                        <path d="M12.3 22h-.1c-5.5 0-10-4.5-10-10 0-4.8 3.5-8.9 8.2-9.8.5-.1 1 .3.9.8-.1.5-.6.8-1.1.7-3.6.7-6.2 3.8-6.2 7.5 0 4.2 3.5 7.7 7.7 7.7 3.5 0 6.6-2.4 7.4-5.8.1-.5.6-.8 1.1-.7.5.1.8.6.7 1.1-.9 4.3-4.8 7.5-9.1 7.5z"/>
+                    </svg>
+                    <!-- Sun Icon (for light mode display) -->
+                    <svg class="sun-icon" viewBox="0 0 24 24">
+                        <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.01c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>
+                    </svg>
+                </button>
+
+                <!-- CTA Button -->
+                <a href="#contact" class="btn btn-primary">Start a Project</a>
+
+                <!-- Hamburger Menu Toggle (Mobile Only) -->
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <!-- Left Content -->
+                <div class="hero-content">
+                    <div class="hero-tagline">
+                        <span class="logo-dot"></span> Web Development Agency
+                    </div>
+                    <h1>We build digital solutions that <span class="text-gradient">drive growth</span></h1>
+                    <p>DevRise Agency is a team of elite developers and designers crafting bespoke, high-performance web products. We help ambitious brands transform their digital landscape.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get Started</a>
+                        <a href="#services" class="btn btn-secondary">Explore Services</a>
+                    </div>
+                </div>
+
+                <!-- Right Visual Element -->
+                <div class="hero-visual">
+                    <div class="hero-badge-card">
+                        <div class="badge-header">
+                            <div class="badge-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <div class="badge-title">
+                                <h4>DevRise Engine</h4>
+                                <p>Active Deployments</p>
+                            </div>
+                        </div>
+                        <div class="badge-stat">
+                            <div class="stat-item">
+                                <h3>99.9%</h3>
+                                <p>Uptime Rate</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>150+</h3>
+                                <p>Projects Live</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services / Features Section -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                    <p>We provide full-cycle engineering, from conceptualization to execution, optimized for velocity and scalability.</p>
+                </div>
+
+                <!-- Services Grid -->
+                <div class="services-grid">
+                    <!-- Service 1: Custom Web Apps -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3>Web App Engineering</h3>
+                        <p>We build highly performant, custom-tailored web applications featuring rich responsiveness, secure authorization, and robust backends.</p>
+                        <a href="#contact" class="service-link">
+                            Learn more 
+                            <svg viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- Service 2: E-Commerce Solution -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                        </div>
+                        <h3>Modern E-Commerce</h3>
+                        <p>Launch conversion-optimized online storefronts with rich, seamless checkout workflows, payment gateway integrations, and swift user flows.</p>
+                        <a href="#contact" class="service-link">
+                            Learn more 
+                            <svg viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- Service 3: UI/UX & Brand Design -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path>
+                                <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z"></path>
+                                <circle cx="12" cy="12" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h3>UI/UX & Brand Design</h3>
+                        <p>We blend art and function to create captivating visual designs and user interfaces that maximize click-throughs and visitor retention.</p>
+                        <a href="#contact" class="service-link">
+                            Learn more 
+                            <svg viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Slider Section -->
+        <section id="testimonials" class="testimonials section-padding">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h2>What Our Clients Say</h2>
+                    <p>We build lasting partnerships. Here's how we've helped companies redefine their software operations.</p>
+                </div>
+
+                <!-- Testimonial Slider Container -->
+                <div class="testimonial-container">
+                    <!-- Slider Wrapper -->
+                    <div class="testimonial-slider-wrapper">
+                        <div class="testimonial-slider-track" id="testimonial-track">
+                            <!-- Slide 1 -->
+                            <div class="testimonial-slide">
+                                <p class="testimonial-quote">"DevRise Agency completely transformed our online presence. Our conversion rate increased by 45% within three months of launching the new site!"</p>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face" alt="Sarah Jenkins" class="author-img">
+                                    <span class="author-name">Sarah Jenkins</span>
+                                    <span class="author-role">CEO, LuxeMedia</span>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="testimonial-slide">
+                                <p class="testimonial-quote">"The team was highly professional, delivering clean code and a stunning design. They exceeded our expectations in every single way."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="David Chen" class="author-img">
+                                    <span class="author-name">David Chen</span>
+                                    <span class="author-role">Founder, TechStart</span>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="testimonial-slide">
+                                <p class="testimonial-quote">"Their expertise in custom web applications helped us scale our platform seamlessly. Outstanding communication and quality!"</p>
+                                <div class="testimonial-author">
+                                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face" alt="Elena Rostova" class="author-img">
+                                    <span class="author-name">Elena Rostova</span>
+                                    <span class="author-role">CTO, FinFlow</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slider Navigation Buttons -->
+                    <button class="slider-btn slider-btn-prev" id="prev-btn" aria-label="Previous slide">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                        </svg>
+                    </button>
+                    <button class="slider-btn slider-btn-next" id="next-btn" aria-label="Next slide">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                        </svg>
+                    </button>
+
+                    <!-- Indicators/Dots -->
+                    <div class="slider-dots" id="slider-dots">
+                        <!-- Rendered by JS dynamically or set up statically -->
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="contact-layout">
+                    <!-- Left: Details -->
+                    <div class="contact-info">
+                        <h3>Let's start your project</h3>
+                        <p>Have an idea or need support scaling your engineering? Get in touch with our tech experts today.</p>
+                        
+                        <div class="info-list">
+                            <!-- Info 1 -->
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                </div>
+                                <div class="info-text">
+                                    <h4>Email Us</h4>
+                                    <p>hello@devrise.agency</p>
+                                </div>
+                            </div>
+                            <!-- Info 2 -->
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.57-.35-.12-.74-.03-1.01.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.27-.26.35-.65.24-1-.37-1.11-.57-2.3-.57-3.53C8.56 3.44 8.12 3 7.58 3H4.03C3.5 3 3 3.44 3 3.97 3 13.37 10.63 21 20.03 21c.5 0 .97-.45.97-1.03v-3.59c0-.54-.44-.97-.99-.97z"/>
+                                    </svg>
+                                </div>
+                                <div class="info-text">
+                                    <h4>Call Us</h4>
+                                    <p>+1 (555) 234-5678</p>
+                                </div>
+                            </div>
+                            <!-- Info 3 -->
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                    </svg>
+                                </div>
+                                <div class="info-text">
+                                    <h4>Headquarters</h4>
+                                    <p>100 Silicon Boulevard, Suite 500, San Francisco, CA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Form -->
+                    <div class="contact-form-wrapper">
+                        <!-- Success message placeholder -->
+                        <div class="form-status" id="form-status">Message sent successfully! We will get back to you shortly.</div>
+                        
+                        <form id="contact-form" novalidate>
+                            <!-- Name -->
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-input" placeholder=" " required>
+                                <label for="name" class="form-label">Full Name</label>
+                                <span class="error-message">Please enter your name</span>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" class="form-input" placeholder=" " required>
+                                <label for="email" class="form-label">Email Address</label>
+                                <span class="error-message">Please enter a valid email address</span>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-input" placeholder=" " required></textarea>
+                                <label for="message" class="form-label">Project Details</label>
+                                <span class="error-message">Please write a brief description of your project</span>
+                            </div>
+
+                            <!-- Submit -->
+                            <button type="submit" id="submit-btn" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        DevRise<span class="logo-dot"></span>
+                    </a>
+                    <p>We build responsive, ultra-scalable software systems. Experience the future of dev engineering.</p>
+                    <div class="footer-socials">
+                        <!-- Twitter/X -->
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <!-- GitHub -->
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                            </svg>
+                        </a>
+                        <!-- LinkedIn -->
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web App Engineering</a></li>
+                        <li><a href="#services">Modern E-Commerce</a></li>
+                        <li><a href="#services">UI/UX & Brand Design</a></li>
+                        <li><a href="#services">Cloud Integrations</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#home">About Us</a></li>
+                        <li><a href="#home">Our Process</a></li>
+                        <li><a href="#home">Case Studies</a></li>
+                        <li><a href="#contact">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li style="color: var(--text-slate); font-size: 0.95rem;">hello@devrise.agency</li>
+                        <li style="color: var(--text-slate); font-size: 0.95rem;">+1 (555) 234-5678</li>
+                        <li style="color: var(--text-slate); font-size: 0.95rem;">SF, California</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 DevRise Agency. All rights reserved.</p>
+                <p>Designed with excellence for modern web scaling.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "devrise-agency-landing-page",
+  "version": "1.0.0",
+  "description": "Premium landing page for DevRise Agency",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "DevRise Agency",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
